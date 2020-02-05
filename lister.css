@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    color: blanchedalmond;
+ }
+ .nav{
+     display: flex;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: linear-gradient(10deg, rgb(202, 152, 15) , rgb(69, 204, 16) ); 
+     height: 25%;
+ }
+ .nav:hover{
+    background: linear-gradient(10deg,rgb(69, 204, 16), rgb(202, 152, 15)); 
+ }
+ .head1{
+     flex: 1;
+     margin-left: 50px;
+ }
+ .head2{
+     flex: 1;
+     margin-top: 20px;
+     justify-content: right;
+     margin-left: 50%;
+ }
+ .filter{
+     height: 20px;
+     width: auto;
+     border-radius: 5px;
+ }
+ .container{
+     width: 30em;
+     display: flex;
+     margin-top: 10px;
+     margin-left: 25%;
+     border: 1px solid rgb(121, 117, 117);
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .ek{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-left: 50px;
+     
+ }
+ .dui{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-left: 50px;
+     
+ }
+ .dui ul{
+     list-style: none;
+     width: 20em;
+ }
+ .dui ul li{
+     height: 30px;
+     border: 1px solid rgb(121, 117, 117);
+     margin: 1px;
+     padding: 5px;
+ }
+ 
+ .xbtn{
+     float: right;
+     background-color: red;
+ }
+
+ input[type="submit"]{
+     height: 30px;
+     width: auto;
+     border-radius: 5px;
+     background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+     color: antiquewhite;
+ }
+ input[type="submit"]:hover{
+    background: linear-gradient(57deg, #1E4D92 , #00C6A7); 
+ }
+ 
+ 
+ 
+ 
